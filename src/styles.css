@@ -42,7 +42,7 @@ p {
 
 .card {
 	padding: 30px 65px;
-	background-color: red;
+	background: url("./imageDark.jpg");
 	border-radius: 5px;
 }
 
