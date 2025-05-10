@@ -10,7 +10,14 @@ export function Component() {
 					Become part of the club, explore unique offers, and enjoy uparralleled
 					access to our exclusive club.
 				</p>
-				<button className="actionBtn">ACTION BUTTON!</button>
+				<button
+					onClick={() => {
+						window.location = "https://youtu.be/dQw4w9WgXcQ";
+					}}
+					className="actionBtn"
+				>
+					ACTION BUTTON!
+				</button>
 			</div>
 		</>
 	);
