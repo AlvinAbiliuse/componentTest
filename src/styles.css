@@ -1,0 +1,52 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: sans-serif;
+	height: 100%;
+	background-color: gray;
+	color: white;
+}
+
+body {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#root {
+	max-width: 400px;
+	margin: 100px auto;
+	padding: 15px;
+}
+
+h1 {
+	font-weight: 400;
+	letter-spacing: 0.15em;
+	font-size: 2.1em;
+	margin: 15px;
+	margin-bottom: 35px;
+}
+
+h2 {
+	margin-bottom: 5px;
+}
+.card {
+	border: 1px solid black;
+	padding: 25px 45px;
+	background-color: red;
+}
+
+.actionBtn {
+	background-color: rgba(255, 255, 255, 0.2);
+	color: inherit;
+	color: rgba(255, 255, 255, 0.9);
+	font-size: 1.2em;
+	padding: 10px 20px;
+	margin: 40px auto;
+	margin-top: 40px;
+	border: 1px solid white;
+	border-color: rgba(255, 255, 255, 0.5);
+}
